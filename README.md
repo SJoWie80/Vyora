@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/SJoWie80/VyoraXR?include_prereleases&color=14c8ff"></a>
+  <a href="../../releases/tag/v0.1.0-alpha7"><img alt="Latest alpha: 0.1.0-alpha7" src="https://img.shields.io/badge/latest%20alpha-0.1.0--alpha7-14c8ff"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Meta%20Quest-bd36ff">
   <img alt="Status" src="https://img.shields.io/badge/status-alpha-f15bb5">
 </p>
@@ -19,22 +19,32 @@ VyoraXR is a media browser and player designed for Meta Quest. It brings compati
 ## Highlights
 
 - Browse Stash libraries directly, including scenes, performers, studios, tags and galleries
-- Connect compatible PLAYA VR websites
+- Connect supported PLAYA VR websites
+- Browse Eporner and RedTube from native in-app library views
 - Open local files and SMB network libraries
 - Explore supported online video and live sources
 - Play 2D, 180-degree, 360-degree and stereoscopic media
 - Switch from the windowed interface to immersive playback with environment options
 - Navigate with Quest controllers, including consistent Back and gallery controls
 
+## Supported Sources
+
+- **Stash direct:** scenes, performers, studios, tags, galleries and authenticated libraries
+- **PLAYA VR websites:** connect compatible websites by URL, including supported authentication
+- **Eporner:** search, sorting, VR discovery, pagination and in-app playback
+- **RedTube:** search, categories, sorting, pagination and in-app playback
+- **Live Cams:** optional live-room browsing with category filters
+- **Local and LAN:** local Quest files and SMB network shares
+
 ## Downloads
 
-Installable builds and concise patch notes are published on the [Releases](../../releases) page.
+Download the [latest alpha](../../releases/tag/v0.1.0-alpha7), or view all builds and patch notes on the [Releases](../../releases) page.
 
 VyoraXR is currently alpha software. Features, compatibility and stored settings may change between releases.
 
 ## Installation
 
-1. Download the latest APK from Releases.
+1. Download the latest alpha APK from Releases.
 2. Install it on a compatible Meta Quest device using ADB or another trusted sideloading tool.
 3. Add your own compatible sources from within the app.
 
