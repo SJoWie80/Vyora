@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/tag/v0.1.0-alpha9"><img alt="Latest alpha: 0.1.0-alpha9" src="https://img.shields.io/badge/latest%20alpha-0.1.0--alpha9-14c8ff"></a>
+  <a href="../../releases/tag/v0.1.0-alpha10"><img alt="Latest alpha: 0.1.0-alpha10" src="https://img.shields.io/badge/latest%20alpha-0.1.0--alpha10-14c8ff"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Meta%20Quest-bd36ff">
   <img alt="Status" src="https://img.shields.io/badge/status-alpha-f15bb5">
 </p>
@@ -39,7 +39,7 @@ VyoraXR is a media browser and player designed for Meta Quest. It brings compati
 
 ## Downloads
 
-Download the [latest alpha](../../releases/tag/v0.1.0-alpha9), or view all builds and patch notes on the [Releases](../../releases) page.
+Download the [latest alpha](../../releases/tag/v0.1.0-alpha10), or view all builds and patch notes on the [Releases](../../releases) page.
 
 VyoraXR is currently alpha software. Features, compatibility and stored settings may change between releases.
 
