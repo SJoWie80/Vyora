@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/tag/v0.1.0-alpha8"><img alt="Latest alpha: 0.1.0-alpha8" src="https://img.shields.io/badge/latest%20alpha-0.1.0--alpha8-14c8ff"></a>
+  <a href="../../releases/tag/v0.1.0-alpha9"><img alt="Latest alpha: 0.1.0-alpha9" src="https://img.shields.io/badge/latest%20alpha-0.1.0--alpha9-14c8ff"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Meta%20Quest-bd36ff">
   <img alt="Status" src="https://img.shields.io/badge/status-alpha-f15bb5">
 </p>
@@ -33,12 +33,13 @@ VyoraXR is a media browser and player designed for Meta Quest. It brings compati
 - **PLAYA VR websites:** connect compatible websites by URL, including supported authentication
 - **Eporner:** search, sorting, VR discovery, pagination and in-app playback
 - **RedTube:** search, categories, sorting, pagination and in-app playback
-- **Live Cams:** optional live-room browsing with category filters
+- **Chaturbate:** live-room browsing with affiliate filtering, search and gender categories
+- **Stripchat:** live-room browsing with Featured, Women, Men, Couples and Trans categories
 - **Local and LAN:** local Quest files and SMB network shares
 
 ## Downloads
 
-Download the [latest alpha](../../releases/tag/v0.1.0-alpha8), or view all builds and patch notes on the [Releases](../../releases) page.
+Download the [latest alpha](../../releases/tag/v0.1.0-alpha9), or view all builds and patch notes on the [Releases](../../releases) page.
 
 VyoraXR is currently alpha software. Features, compatibility and stored settings may change between releases.
 
