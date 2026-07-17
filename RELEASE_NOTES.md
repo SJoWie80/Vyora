@@ -2,6 +2,26 @@
 
 This document combines the public alpha release notes. VyoraXR is alpha software; features and compatibility may change between releases.
 
+## 0.1.0-alpha11
+
+### Highlights
+
+- Added a complete English public user manual covering sources, Stash setup, VR detection, funscripts, player controls and troubleshooting.
+- Improved Intiface Central connection monitoring with WebSocket heartbeat checks and automatic reconnect.
+- The Intiface control popup now appears only after a successful connection and closes when the connection is lost.
+- Connected toys and actuator counts refresh automatically while the control popup is open.
+- Removed the placeholder Motor 1 control when no toy is connected.
+- Added compact connected-toy names to the control interface.
+- Funscript control now clearly uses an **Intensity** slider with a 50% default intensity.
+- Improved stop handling so all supported actuators are stopped when playback ends or the connection is lost.
+
+### Documentation and release packaging
+
+- Clarified that VR mode is automatically detected from filenames and metadata; explicit tags are recommended for ambiguous files.
+- Added official setup links for Stash, Intiface Central and Meta Quest developer setup.
+- Combined the public alpha release history into this release-notes file.
+- Public repository continues to contain release APKs and documentation only; application source code is not published.
+
 ## 0.1.0-alpha10
 
 ### Meta Store patch notes
