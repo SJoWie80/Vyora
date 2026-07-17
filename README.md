@@ -121,12 +121,12 @@ VyoraXR uses Intiface Central as the Bluetooth/device layer. Bluetooth pairing i
 
 1. Install and open Intiface Central on the phone.
 2. Start the Intiface engine and enable its WebSocket server.
-3. Find the phone's Wi-Fi address, for example `192.168.101.144` (`192.168.101.x` is the subnet pattern; the final number belongs to the phone).
+3. Find the phone's Wi-Fi address. It may use a private LAN range such as `192.168.x.x`; use the actual address shown by your network.
 4. In VyoraXR open **Settings > Toy Control**.
 5. Enter the WebSocket address, for example:
 
 ```text
-ws://192.168.101.144:12345
+ws://<phone-ip>:12345
 ```
 
 6. Connect or scan for the toy in Intiface Central.
@@ -176,7 +176,7 @@ Make sure the Quest can reach the active source. Switch to the correct bookmark 
 
 ### Intiface does not connect
 
-Confirm that the phone and Quest are on the same network, the Intiface WebSocket server is running, and the phone's Wi-Fi IP is used. The network may be `192.168.101.x`, `192.168.1.x` or another subnet; do not assume a fixed subnet.
+Confirm that the phone and Quest are on the same network, the Intiface WebSocket server is running, and the phone's Wi-Fi IP is used. Home networks may use different private subnets; do not assume a fixed subnet.
 
 ### A VR video is displayed incorrectly
 
