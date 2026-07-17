@@ -34,7 +34,7 @@ VyoraXR keeps the main library interface windowed and controller-friendly, while
 
 ### Stash Direct
 
-Connect directly to your Stash server using its URL, username and password or API key. Stash Direct supports scenes, studios, performers, tags, galleries, images, favorites and funscripts. The legacy bridge is not required and is kept only as an optional compatibility fallback.
+Connect directly to your Stash server using its URL, username and password or API key. Stash Direct supports scenes, studios, performers, tags, galleries, images, favorites and funscripts. The legacy bridge is not required and is kept only as an optional compatibility fallback. See the [official Stash documentation](https://docs.stashapp.cc/) and [Stash GitHub project](https://github.com/stashapp/stash).
 
 ### PLAYA VR Websites
 
@@ -53,7 +53,7 @@ Add a website URL and VyoraXR checks whether it exposes the PLAYA VR API. Compat
 1. Download the latest alpha APK from [Releases](../../releases).
 2. Enable Developer Mode on the Quest.
 3. Install the APK using ADB or another trusted sideloading tool.
-4. Launch VyoraXR and configure a source in **Settings > Manage Sources**.
+4. Launch VyoraXR and configure a source in **Settings > Manage Sources**. For Quest developer setup, see the [Meta Quest developer documentation](https://developers.meta.com/horizon/documentation/native/android/mobile-device-setup/).
 
 Example ADB command:
 
@@ -73,7 +73,7 @@ Credentials and bookmarks are stored locally on the Quest. Favorites are also lo
 
 ## Stash Tagging and VR Detection
 
-VyoraXR detects the playback mode from filenames and metadata. Use clear tokens separated by spaces, underscores, hyphens or brackets.
+VyoraXR detects the playback mode automatically from recognizable filenames and metadata. Tags and filename tokens are recommended because they make the intended mode explicit and can resolve ambiguous files; they are not required for every video. Use clear tokens separated by spaces, underscores, hyphens or brackets.
 
 | Purpose | Accepted examples |
 | --- | --- |
@@ -121,7 +121,7 @@ VyoraXR uses Intiface Central as the Bluetooth/device layer. Bluetooth pairing i
 
 1. Install and open Intiface Central on the phone.
 2. Start the Intiface engine and enable its WebSocket server.
-3. Find the phone's Wi-Fi address, for example `192.168.101.144`.
+3. Find the phone's Wi-Fi address, for example `192.168.101.144` (`192.168.101.x` is the subnet pattern; the final number belongs to the phone).
 4. In VyoraXR open **Settings > Toy Control**.
 5. Enter the WebSocket address, for example:
 
@@ -132,7 +132,7 @@ ws://192.168.101.144:12345
 6. Connect or scan for the toy in Intiface Central.
 7. Enable **Auto-connect Intiface Central** if VyoraXR should connect at startup.
 
-The default for Auto-connect is disabled on a new installation. VyoraXR remembers the last server address. The control popup appears only after a successful connection, checks the connection continuously, refreshes connected devices, closes on disconnect and retries automatically when Auto-connect is enabled.
+The default for Auto-connect is disabled on a new installation. VyoraXR remembers the last server address. The control popup appears only after a successful connection, checks the connection continuously, refreshes connected devices, closes on disconnect and retries automatically when Auto-connect is enabled. See the [Intiface Central documentation](https://intiface.com/docs/intiface-central/quickstart/) or [Intiface Central website](https://intiface.com/).
 
 ## Player and VR Mode
 
