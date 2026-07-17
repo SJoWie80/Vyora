@@ -121,12 +121,12 @@ VyoraXR uses Intiface Central as the Bluetooth/device layer. Bluetooth pairing i
 
 1. Install and open Intiface Central on the phone.
 2. Start the Intiface engine and enable its WebSocket server.
-3. Find the phone's Wi-Fi address. It may use a private LAN range such as `192.168.x.x`; use the actual address shown by your network.
+3. Find the computer or phone's Wi-Fi address. It may use a private LAN range such as `192.168.x.x`; use the actual address shown by your network.
 4. In VyoraXR open **Settings > Toy Control**.
 5. Enter the WebSocket address, for example:
 
 ```text
-ws://<phone-ip>:12345
+ws://<server-ip>:12345
 ```
 
 6. Connect or scan for the toy in Intiface Central.
