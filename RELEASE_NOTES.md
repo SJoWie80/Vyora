@@ -2,6 +2,22 @@
 
 This document combines the public alpha release notes. VyoraXR is alpha software; features and compatibility may change between releases.
 
+## 0.1.0-alpha12
+
+### Toy and funscript control
+
+- Funscript actions are now sent to every connected Intiface device instead of only the selected device.
+- Both actuators are addressed for each connected device.
+- Stop commands are broadcast to all connected devices when playback ends, the scene changes or the connection is lost.
+- Multi-device refresh and device-specific manual controls remain available.
+
+### Stability
+
+- Improved synchronization between the connected-device list and funscript playback.
+- Preserved the existing Intiface reconnect, heartbeat and automatic scanning behavior.
+
+## 0.1.0-alpha11
+
 ## 0.1.0-alpha11
 
 ### Highlights
