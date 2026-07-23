@@ -22,11 +22,11 @@ Both editions browse personal libraries, compatible websites and local/network m
 
 VyoraTV is the focused 2D edition for Android TV devices and emulators. It keeps the same source integrations while using a remote-friendly three-panel layout with visible D-pad focus, grid navigation, Back handling and TV playback controls.
 
-![VyoraTV home screen](assets/android-tv/vyoratv-home.png)
-
-![VyoraTV scenes](assets/android-tv/vyoratv-scenes-blurred.png)
-
-![VyoraTV Stash studios](assets/android-tv/vyoratv-studios.png)
+<p>
+  <a href="assets/android-tv/vyoratv-home.png"><img src="assets/android-tv/vyoratv-home.png" alt="VyoraTV home screen" width="31%"></a>
+  <a href="assets/android-tv/vyoratv-scenes-blurred.png"><img src="assets/android-tv/vyoratv-scenes-blurred.png" alt="VyoraTV scenes" width="31%"></a>
+  <a href="assets/android-tv/vyoratv-studios.png"><img src="assets/android-tv/vyoratv-studios.png" alt="VyoraTV Stash studios" width="31%"></a>
+</p>
 
 ## Highlights
 
