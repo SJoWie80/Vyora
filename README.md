@@ -18,6 +18,16 @@ VyoraXR is the Meta Quest edition with a windowed library and immersive player. 
 
 Both editions browse personal libraries, compatible websites and local/network media from one controller-friendly interface.
 
+## Android TV
+
+VyoraTV is the focused 2D edition for Android TV devices and emulators. It keeps the same source integrations while using a remote-friendly three-panel layout with visible D-pad focus, grid navigation, Back handling and TV playback controls.
+
+![VyoraTV home screen](assets/android-tv/vyoratv-home.png)
+
+![VyoraTV scenes](assets/android-tv/vyoratv-scenes-blurred.png)
+
+![VyoraTV Stash studios](assets/android-tv/vyoratv-studios.png)
+
 ## Highlights
 
 - Direct Stash browsing: scenes, studios, performers, tags, galleries and images
