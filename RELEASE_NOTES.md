@@ -14,6 +14,7 @@ This document combines the public alpha release notes. VyoraXR and VyoraTV are a
 - Added GitHub update checking, downloading and installer handoff for VyoraTV; VyoraXR links to the release page.
 - Updated release checks and public documentation for the renamed `SJoWie80/Vyora` repository.
 - Made the VyoraTV player title bar hide and return together with the playback controls.
+- Fixed vertical D-pad navigation so focus stays in the left sidebar through sources, local media, Settings and Quit.
 
 ## 0.1.0-alpha15
 
