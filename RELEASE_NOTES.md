@@ -2,6 +2,17 @@
 
 This document combines the public alpha release notes. VyoraXR and VyoraTV are alpha software; features and compatibility may change between releases.
 
+## 0.1.0-alpha17
+
+- Added a dedicated Games destination to the VyoraTV sidebar between Online and saved sources.
+- Added an offline Truth or Dare party game with 2-8 players and Warm, Spicy and Wild intensity choices.
+- Added English, Dutch, German and French game prompts with per-player intensity selection and repeat protection.
+- Added TV-remote navigation, Back handling and clear high-contrast focus states throughout the game flow.
+- Improved game-card sizing, prompt readability, spacing and transparent artwork presentation.
+- Refined Start, Next player and Quit focus feedback for better D-pad visibility.
+- Updated public documentation with current privacy-redacted VyoraTV screenshots and Android TV sideload instructions.
+- Replaced the framed VyoraXR README image with transparent Vyora XR/TV branding.
+
 ## 0.1.0-alpha16
 
 - Redesigned VyoraTV around a modern two-panel library with dedicated Home and Online views.
@@ -107,7 +118,7 @@ This alpha contains an experimental change to Quest controller input during VR p
 
 ### Notes
 
-- Stripchat uses its public models endpoint with the configured affiliate user ID.
+- Stripchat uses its public models endpoint with the configured source settings.
 - The public endpoint reports VR capability but does not provide a separate SBS stream; VR is therefore not shown as a supported Stripchat mode in this release.
 - Existing Stash, PLAYA VR, Chaturbate, Eporner, RedTube, ImageFap and local playback features remain available.
 

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/vyoraxr-home-logo.png" alt="VyoraXR - Every View. Total Immersion." width="760">
+  <img src="assets/vyora-xr-tv-logo.png" alt="Vyora XR/TV - Every View. Total Immersion." width="760">
 </p>
 
 <p align="center">
@@ -20,12 +20,12 @@ Both editions browse personal libraries, compatible websites and local/network m
 
 ## Android TV
 
-VyoraTV is the focused 2D edition for Android TV devices and emulators. It keeps the same source integrations while using a remote-friendly three-panel layout with visible D-pad focus, grid navigation, Back handling and TV playback controls.
+VyoraTV is the focused 2D edition for Android TV devices and emulators. Its modern two-panel library provides dedicated Home, Online and Games views with visible D-pad focus, grid navigation, Back handling and TV playback controls.
 
 <p>
   <a href="assets/android-tv/vyoratv-home.png"><img src="assets/android-tv/vyoratv-home.png" alt="VyoraTV home screen" width="31%"></a>
-  <a href="assets/android-tv/vyoratv-scenes-blurred.png"><img src="assets/android-tv/vyoratv-scenes-blurred.png" alt="VyoraTV scenes" width="31%"></a>
-  <a href="assets/android-tv/vyoratv-studios.png"><img src="assets/android-tv/vyoratv-studios.png" alt="VyoraTV Stash studios" width="31%"></a>
+  <a href="assets/android-tv/vyoratv-games.png"><img src="assets/android-tv/vyoratv-games.png" alt="VyoraTV games hub" width="31%"></a>
+  <a href="assets/android-tv/vyoratv-scenes-blurred.png"><img src="assets/android-tv/vyoratv-scenes-blurred.png" alt="VyoraTV scenes with private media blurred" width="31%"></a>
 </p>
 
 ## Highlights
@@ -38,6 +38,7 @@ VyoraTV is the focused 2D edition for Android TV devices and emulators. It keeps
 - Eporner, RedTube and ImageFap sources
 - Local files, direct streams, SMB and LAN media
 - Pagination, source-specific search and cached thumbnails
+- VyoraTV Games hub with an offline, multilingual Truth or Dare party game
 - Windowed playback and immersive VR playback with Void and room environments
 - Controller navigation, gallery photo browsing and consistent Back controls
 - Intiface Central integration for supported toys and Stash funscripts
@@ -65,6 +66,16 @@ Add a website URL and VyoraXR checks whether it exposes the PLAYA VR API. Compat
 1. Download the latest alpha APK from [Releases](../../releases).
 2. Install the Quest APK on a Meta Quest, or install the TV APK on an Android TV device/emulator.
 3. Launch the app and configure a source in **Settings > Manage Sources**. For Quest developer setup, see the [Meta Quest developer documentation](https://developers.meta.com/horizon/documentation/native/android/mobile-device-setup/).
+
+### Install VyoraTV with Send Files to TV
+
+1. Install **Send Files to TV** on the Android TV device and on the phone or computer used to transfer files.
+2. Download `VyoraTV-<version>-AndroidTV.apk` from the latest GitHub release.
+3. Send the APK to the Android TV device and open it there with a file manager or package installer.
+4. If Android asks, allow **Install unknown apps** for the receiving or file-manager app.
+5. Install the APK and launch VyoraTV from the Android TV Apps menu.
+
+Updates can also be checked from **Settings > Check for Update** inside VyoraTV.
 
 Example ADB command:
 
