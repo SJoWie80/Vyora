@@ -2,6 +2,15 @@
 
 This document combines the public alpha release notes. VyoraXR and VyoraTV are alpha software; features and compatibility may change between releases.
 
+## 0.1.0-alpha18
+
+- Improved Wheel of Passion layout spacing and vertical sizing on Android TV.
+- Enlarged the position display area while keeping the controls visible.
+- Fixed clipped status text such as `The wheel is spinning...`.
+- Fixed clipped result names such as `Cowgirl`.
+- Added consistent font padding and bottom spacing around the result controls.
+- Published matching VyoraTV and VyoraXR APK assets in the GitHub release.
+
 ## 0.1.0-alpha17
 
 - Added a dedicated Games destination to the VyoraTV sidebar between Online and saved sources.
