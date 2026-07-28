@@ -2,6 +2,13 @@
 
 This document combines the public alpha release notes. VyoraXR and VyoraTV are alpha software; features and compatibility may change between releases.
 
+## 0.1.0-alpha19
+
+- Added a visible funscript badge to Stash scene thumbnails and scene details in VyoraXR and VyoraTV.
+- Added a brighter neon waveform badge with transparent background and stronger thumbnail contrast.
+- Improved funscript detection by checking both the scene tag and the available heatmap URL.
+- Published matching Quest and Android TV APKs in the GitHub release.
+
 ## 0.1.0-alpha18
 
 - Improved Wheel of Passion layout spacing and vertical sizing on Android TV.
