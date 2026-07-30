@@ -2,6 +2,19 @@
 
 This document combines the public alpha release notes. VyoraXR and VyoraTV are alpha software; features and compatibility may change between releases.
 
+## 0.1.0-alpha20
+
+- Added native Bluetooth support for compatible [OSSM](https://ossm.tech/) machines in VyoraXR without requiring Intiface Central.
+- Added a dedicated OSSM setup page and movable control window.
+- Added manual speed, stroke, depth, pattern and sensation controls with precise `-` and `+` adjustment.
+- Added safe positioning, persistent control settings and stopped-by-default connection behavior.
+- Added direct OSSM funscript playback for tagged Stash scenes.
+- Added persistent funscript speed, stroke and depth controls, initially defaulting to 25%.
+- Added contextual OSSM controls to the immersive VR player panel.
+- Improved funscript synchronization with faster timeline lookup, removal of obsolete Bluetooth commands and speed-limit handling.
+- Improved actuator stopping when playback pauses, ends or exits.
+- Published matching Quest and Android TV alpha20 APKs.
+
 ## 0.1.0-alpha19
 
 - Added a visible funscript badge to Stash scene thumbnails and scene details in VyoraXR and VyoraTV.

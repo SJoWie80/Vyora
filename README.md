@@ -42,6 +42,7 @@ VyoraTV is the focused 2D edition for Android TV devices and emulators. Its mode
 - Windowed playback and immersive VR playback with Void and room environments
 - Controller navigation, gallery photo browsing and consistent Back controls
 - Intiface Central integration for supported toys and Stash funscripts
+- Native Bluetooth control and funscript playback for compatible [OSSM](https://ossm.tech/) machines in VyoraXR
 
 ## Supported Sources
 
@@ -130,9 +131,10 @@ The scene must have this tag and expose a reachable Stash funscript endpoint. Ta
 
 When a tagged scene starts playing:
 
-- The Intiface popup switches to **Intensity** mode.
-- The default intensity is 50%.
-- Intensity is sent to all supported actuators.
+- Connected Intiface devices switch to funscript intensity mode.
+- A connected OSSM switches to funscript controls for speed, stroke and depth.
+- OSSM funscript speed, stroke and depth initially default to 25% and remember later adjustments.
+- Funscript output is sent to all connected supported devices.
 - Stopping or leaving the scene stops the actuators.
 
 ## Intiface Central
@@ -156,6 +158,19 @@ ws://<server-ip>:12345
 
 The default for Auto-connect is disabled on a new installation. VyoraXR remembers the last server address. The control popup appears only after a successful connection, checks the connection continuously, refreshes connected devices, closes on disconnect and retries automatically when Auto-connect is enabled. See the [Intiface Central documentation](https://intiface.com/docs/intiface-central/quickstart/) or [Intiface Central website](https://intiface.com/).
 
+## Native OSSM Support
+
+VyoraXR can connect directly over Bluetooth to compatible [OSSM](https://ossm.tech/) machines. This native route is separate from Intiface Central and is available in the Meta Quest edition.
+
+Open **Settings > OSSM**, start a scan and select the detected machine. After connecting, VyoraXR opens a movable OSSM control window with:
+
+- Play and Stop
+- Speed, stroke and depth
+- Pattern and sensation
+- `-` and `+` controls for precise controller input
+
+Manual settings are stored locally, but every new connection starts stopped and performs safe positioning before motion begins. For a tagged Stash funscript, the control window changes to speed, stroke and depth limits. The same controls are available from the immersive VR player panel. VyoraXR drops obsolete Bluetooth motion commands and follows the current video position to reduce funscript latency.
+
 ## Player and VR Mode
 
 The library remains windowed by default. Select VR mode from the player controls for immersive playback.
@@ -173,6 +188,7 @@ The library remains windowed by default. Select VR mode from the player controls
 - **Manage Sources:** add, edit and remove source bookmarks
 - **Toy Control:** Intiface Central server address, connection and separate control popup
 - **Auto-connect Intiface Central:** connect automatically at startup; disabled by default
+- **OSSM:** direct Bluetooth scanning, connection and native OSSM controls in VyoraXR
 - **Language:** English, Nederlands, Deutsch and Français
 - **Live Cams enabled:** show or hide live sources
 - **RedTube enabled:** show or hide RedTube
