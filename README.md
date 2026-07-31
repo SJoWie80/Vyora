@@ -7,9 +7,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/SJoWie80/Vyora/releases/latest"><img alt="Latest alpha release" src="https://img.shields.io/github/v/release/SJoWie80/Vyora?include_prereleases&display_name=tag&label=latest%20alpha&cacheSeconds=300"></a>
+  <a href="https://github.com/SJoWie80/Vyora/releases/latest"><img alt="Latest beta release" src="https://img.shields.io/github/v/release/SJoWie80/Vyora?include_prereleases&display_name=tag&label=latest%20beta&cacheSeconds=300"></a>
   <img alt="Platforms" src="https://img.shields.io/badge/platform-Meta%20Quest%20%7C%20Android%20TV-bd36ff">
-  <img alt="Status" src="https://img.shields.io/badge/status-alpha-f15bb5">
+  <img alt="Status" src="https://img.shields.io/badge/status-beta-f15bb5">
 </p>
 
 # VyoraXR / VyoraTV
@@ -82,7 +82,7 @@ Add a website URL and Vyora checks whether it exposes the PLAYA VR API. PLAYA VR
 
 ## Installation
 
-1. Download the latest alpha APK from [GitHub Releases](https://github.com/SJoWie80/Vyora/releases/latest).
+1. Download the latest beta APK from [GitHub Releases](https://github.com/SJoWie80/Vyora/releases/latest).
 2. Install the Quest APK on a Meta Quest, or install the TV APK on an Android TV device/emulator.
 3. Launch the app and configure a source in **Settings > Manage Sources**. For Quest developer setup, see the [Meta Quest developer documentation](https://developers.meta.com/horizon/documentation/native/android/mobile-device-setup/).
 
@@ -241,9 +241,9 @@ Confirm that the phone and Quest are on the same network, the Intiface WebSocket
 
 Correct the filename or metadata tags. Use `180vr`, `360vr`, `sbs`, `lr`, `tb` or `mono` as appropriate. A missing stereo token can make an SBS file appear as a flat image.
 
-## Alpha Status
+## Beta Status
 
-VyoraXR and VyoraTV are active alpha releases. Core Stash browsing, local/network playback and the main controller workflows are usable, but behavior can still change between versions.
+VyoraXR and VyoraTV are beta releases. Core library browsing, local/network playback and the main controller workflows are usable, but behavior can still change between versions.
 
 Current limitations:
 
@@ -266,4 +266,4 @@ This repository contains public release APKs, documentation, store assets and re
 
 Use [GitHub Issues](https://github.com/SJoWie80/Vyora/issues) for reproducible bugs and feature requests. Include the app version, Quest model and a short description, but never include credentials or private URLs.
 
-See the combined [release notes](RELEASE_NOTES.md) for the public alpha history.
+See the combined [release notes](RELEASE_NOTES.md) for the public release history.

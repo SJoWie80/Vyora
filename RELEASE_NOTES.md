@@ -1,6 +1,15 @@
 # Vyora Release Notes
 
-This document combines the public alpha release notes. VyoraXR and VyoraTV are alpha software; features and compatibility may change between releases.
+This document combines the public release notes. VyoraXR and VyoraTV are beta software; features and compatibility may change between releases.
+
+## 0.1.0-beta1
+
+- VyoraXR can now download and install updates directly from GitHub.
+- VyoraTV and VyoraXR automatically use their matching update packages.
+- Added support for beta release updates.
+- Improved country detection for Quest and Android TV installations.
+- Fixed app update installation support on Meta Quest.
+- Fixed build reliability for Quest and Android TV release packages.
 
 ## 0.1.0-alpha21
 
