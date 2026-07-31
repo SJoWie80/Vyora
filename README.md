@@ -20,7 +20,11 @@ Both editions browse personal libraries, compatible websites and local/network m
 
 ## Why Vyora?
 
-Vyora brings personal Stash libraries, local and network media, compatible online sources and interactive hardware into one focused interface. Use VyoraTV from the couch with a D-pad, or keep the library windowed on Quest and enter immersive playback only when desired.
+Vyora brings personal Stash libraries, local and network media, compatible online sources and interactive hardware into one focused interface. It provides direct access to scenes, performers, studios, tags, galleries, favorites and funscripts without requiring a separate bridge service.
+
+Use VyoraTV from the couch with a D-pad-focused Android TV interface, or browse in a window on Meta Quest and enter immersive playback only when desired. VyoraXR supports flat, 180-degree, 360-degree, SBS, top-bottom and passthrough-oriented media, with automatic format detection where source metadata or filenames provide enough information.
+
+Interactive playback is supported through [Intiface Central](https://intiface.com/) on VyoraXR and VyoraTV. VyoraXR also provides native Bluetooth control for compatible [OSSM](https://ossm.tech/) machines. Tagged Stash scenes can load their funscripts, follow video playback and expose adjustable intensity controls for connected hardware.
 
 Saved sources, favorites, credentials and device settings remain local to the app. Online sources and live cams are optional and can be disabled from Settings.
 
