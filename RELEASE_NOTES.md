@@ -2,6 +2,15 @@
 
 This document combines the public alpha release notes. VyoraXR and VyoraTV are alpha software; features and compatibility may change between releases.
 
+## 0.1.0-alpha21
+
+- Added anonymous telemetry and crash reporting for VyoraXR and VyoraTV.
+- Added a privacy setting to opt out of telemetry.
+- Added private dashboard controls for viewing and clearing crash data.
+- Improved country and device reporting for Quest and Android TV installations.
+- Removed the temporary crash-test control from VyoraXR.
+- Published matching Quest and Android TV alpha21 APKs.
+
 ## 0.1.0-alpha20
 
 - Added native Bluetooth support for compatible [OSSM](https://ossm.tech/) machines in VyoraXR without requiring Intiface Central.
