@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-  <strong>A Quest-native media library and immersive player for personal libraries, compatible websites and local media.</strong>
+  <strong>A controller-friendly media library for Meta Quest and Android TV, with immersive VR playback on Quest.</strong>
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img alt="Latest alpha release" src="https://img.shields.io/github/v/release/SJoWie80/Vyora?include_prereleases&display_name=tag&label=latest%20alpha&cacheSeconds=300"></a>
+  <a href="https://github.com/SJoWie80/Vyora/releases/latest"><img alt="Latest alpha release" src="https://img.shields.io/github/v/release/SJoWie80/Vyora?include_prereleases&display_name=tag&label=latest%20alpha&cacheSeconds=300"></a>
   <img alt="Platforms" src="https://img.shields.io/badge/platform-Meta%20Quest%20%7C%20Android%20TV-bd36ff">
   <img alt="Status" src="https://img.shields.io/badge/status-alpha-f15bb5">
 </p>
@@ -17,6 +17,12 @@
 VyoraXR is the Meta Quest edition with a windowed library and immersive player. VyoraTV is the Android TV edition: a focused 2D media library controlled with a TV remote or gamepad.
 
 Both editions browse personal libraries, compatible websites and local/network media from one controller-friendly interface.
+
+## Why Vyora?
+
+Vyora brings personal Stash libraries, local and network media, compatible online sources and interactive hardware into one focused interface. Use VyoraTV from the couch with a D-pad, or keep the library windowed on Quest and enter immersive playback only when desired.
+
+Saved sources, favorites, credentials and device settings remain local to the app. Online sources and live cams are optional and can be disabled from Settings.
 
 ## Android TV
 
@@ -28,19 +34,27 @@ VyoraTV is the focused 2D edition for Android TV devices and emulators. Its mode
   <a href="assets/android-tv/vyoratv-scenes-blurred.png"><img src="assets/android-tv/vyoratv-scenes-blurred.png" alt="VyoraTV scenes with private media blurred" width="31%"></a>
 </p>
 
-## Highlights
+## Core Features
 
 - Direct Stash browsing: scenes, studios, performers, tags, galleries and images
 - Stash scene details, local favorites and funscript discovery
-- PLAYA VR website sources with supported authentication
-- Chaturbate live cams with search, gender filters and viewer sorting
-- Stripchat live cams with Featured, Women, Men, Couples and Trans categories
-- Eporner, RedTube and ImageFap sources
 - Local files, direct streams, SMB and LAN media
 - Pagination, source-specific search and cached thumbnails
 - VyoraTV Games hub with an offline, multilingual Truth or Dare party game
 - Windowed playback and immersive VR playback with Void and room environments
 - Controller navigation, gallery photo browsing and consistent Back controls
+
+### Optional Online Sources
+
+- PLAYA VR API-compatible websites with supported authentication
+- Chaturbate live cams with search, gender filters and viewer sorting
+- Stripchat live cams with Featured, Women, Men, Couples and Trans categories
+- Eporner, RedTube and ImageFap sources
+
+Online sources can be enabled or disabled individually from **Settings > Manage Sources**.
+
+### Interactive Hardware
+
 - Intiface Central integration for supported toys and Stash funscripts
 - Native Bluetooth control and funscript playback for compatible [OSSM](https://ossm.tech/) machines in VyoraXR
 
@@ -52,7 +66,7 @@ Connect directly to your Stash server using its URL, username and password or AP
 
 ### PLAYA VR Websites
 
-Add a website URL and VyoraXR checks whether it exposes the PLAYA VR API. Compatible websites can provide their supported library, media and authentication flow inside the app.
+Add a website URL and Vyora checks whether it exposes the PLAYA VR API. PLAYA VR API-compatible websites expose their supported library, media and authentication flow inside the app.
 
 ### Online Sources
 
@@ -64,7 +78,7 @@ Add a website URL and VyoraXR checks whether it exposes the PLAYA VR API. Compat
 
 ## Installation
 
-1. Download the latest alpha APK from [Releases](../../releases).
+1. Download the latest alpha APK from [GitHub Releases](https://github.com/SJoWie80/Vyora/releases/latest).
 2. Install the Quest APK on a Meta Quest, or install the TV APK on an Android TV device/emulator.
 3. Launch the app and configure a source in **Settings > Manage Sources**. For Quest developer setup, see the [Meta Quest developer documentation](https://developers.meta.com/horizon/documentation/native/android/mobile-device-setup/).
 
@@ -80,7 +94,7 @@ Updates can also be checked from **Settings > Check for Update** inside VyoraTV.
 
 Example ADB command:
 
-```text
+```bash
 adb install -r VyoraXR-release.apk
 ```
 
@@ -141,7 +155,7 @@ When a tagged scene starts playing:
 
 VyoraXR uses Intiface Central as the Bluetooth/device layer. Bluetooth pairing is performed by Intiface Central, normally on an Android phone; VyoraXR connects to its WebSocket server over Wi-Fi.
 
-### Setup
+### Quick Start
 
 1. Install and open Intiface Central on the phone.
 2. Start the Intiface engine and enable its WebSocket server.
@@ -156,11 +170,15 @@ ws://<server-ip>:12345
 6. Connect or scan for the toy in Intiface Central.
 7. Enable **Auto-connect Intiface Central** if VyoraXR should connect at startup.
 
-The default for Auto-connect is disabled on a new installation. VyoraXR remembers the last server address. The control popup appears only after a successful connection, checks the connection continuously, refreshes connected devices, closes on disconnect and retries automatically when Auto-connect is enabled. See the [Intiface Central documentation](https://intiface.com/docs/intiface-central/quickstart/) or [Intiface Central website](https://intiface.com/).
+The default for Auto-connect is disabled on a new installation. VyoraXR remembers the last server address.
+
+The control popup appears only after a successful connection. VyoraXR checks the connection continuously, refreshes connected devices, closes the popup on disconnect and retries automatically when Auto-connect is enabled. See the [Intiface Central documentation](https://intiface.com/docs/intiface-central/quickstart/) or [Intiface Central website](https://intiface.com/).
 
 ## Native OSSM Support
 
 VyoraXR can connect directly over Bluetooth to compatible [OSSM](https://ossm.tech/) machines. This native route is separate from Intiface Central and is available in the Meta Quest edition.
+
+### Quick Start
 
 Open **Settings > OSSM**, start a scan and select the detected machine. After connecting, VyoraXR opens a movable OSSM control window with:
 
@@ -219,6 +237,19 @@ Confirm that the phone and Quest are on the same network, the Intiface WebSocket
 
 Correct the filename or metadata tags. Use `180vr`, `360vr`, `sbs`, `lr`, `tb` or `mono` as appropriate. A missing stereo token can make an SBS file appear as a flat image.
 
+## Alpha Status
+
+VyoraXR and VyoraTV are active alpha releases. Core Stash browsing, local/network playback and the main controller workflows are usable, but behavior can still change between versions.
+
+Current limitations:
+
+- Third-party website APIs and page structures can change without notice.
+- Automatic VR detection depends on recognizable metadata, tags or filenames when a source does not identify the format clearly.
+- Intiface and native OSSM compatibility depends on the connected device, firmware and network or Bluetooth environment.
+- GitHub builds are sideloaded and Android may require permission to install updates from the chosen installer app.
+
+When testing interactive hardware, begin with conservative speed, stroke and depth settings and keep the machine's physical stop controls accessible.
+
 ## Privacy and Legal
 
 VyoraXR is a client for sources configured by the user. It does not host media. Users are responsible for their sources, content rights, applicable laws and service terms. Do not include passwords, API keys, private media URLs or personal server details in issue reports.
@@ -229,6 +260,6 @@ This repository contains public release APKs, documentation, store assets and re
 
 ## Support
 
-Use [GitHub Issues](../../issues) for reproducible bugs and feature requests. Include the app version, Quest model and a short description, but never include credentials or private URLs.
+Use [GitHub Issues](https://github.com/SJoWie80/Vyora/issues) for reproducible bugs and feature requests. Include the app version, Quest model and a short description, but never include credentials or private URLs.
 
 See the combined [release notes](RELEASE_NOTES.md) for the public alpha history.
