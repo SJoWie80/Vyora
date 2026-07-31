@@ -2,6 +2,12 @@
 
 This document combines the public release notes. VyoraXR and VyoraTV are beta software; features and compatibility may change between releases.
 
+## 0.1.0-beta3
+
+- Cleaned up downloaded update APKs after the installed version catches up.
+- Hidden the downloaded-update action when the cached APK is already installed.
+- Published matching Quest and Android TV beta3 APKs.
+
 ## 0.1.0-beta2
 
 - Fixed Quest update installation after an APK download completes.
