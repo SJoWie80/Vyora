@@ -2,6 +2,16 @@
 
 This document combines the public release notes. VyoraXR and VyoraTV are beta software; features and compatibility may change between releases.
 
+## 0.1.0-beta4
+
+- Added local Continue watching history for Stash scenes on VyoraXR and VyoraTV.
+- Added per-scene playback resume and automatic Seen status after 80% playback.
+- Added Seen badges to scene thumbnails and Mark as seen / Unmark as seen in scene details.
+- Added the same library-first Home layout to VyoraXR, including recent Stash items and live content.
+- Added Home and Online navigation buttons to VyoraXR and removed the old Online Sources dropdown.
+- Standardized Home and scene thumbnail sizing with fixed 16:9 containers.
+- Published matching Quest and Android TV beta4 APKs.
+
 ## 0.1.0-beta3
 
 - Cleaned up downloaded update APKs after the installed version catches up.
